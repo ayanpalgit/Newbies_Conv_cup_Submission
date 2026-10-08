@@ -71,16 +71,7 @@ under `logs/head_to_head/`. Swap the complete `player_1` and `player_2` objects
 to reverse sides, and use `--seed 102` for another layout. The official environment
 and runner are supplied separately by the organizers; the ZIP contains the agent.
 
-## Playing strategy
 
-The policy uses the visible field geometry to navigate obstacles, predict ball
-rebounds and interceptions, and select shots. It handles both attacking sides.
-Routes use the actual circular player collision shape. Shot checks consider
-possible defender movements, and can vary shot choices when several lanes are available.
-Defense covers possible scoring paths before closing down the opponent.
-Release kicks balance forward progress, recovery time, and interception risk.
-The bot uses no external APIs and does not modify the simulator or game state.
-The environment and organizer model are not part of this submission.
 ## Strategy
 
 The policy uses the visible field geometry to navigate obstacles, predict ball
