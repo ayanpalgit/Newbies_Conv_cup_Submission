@@ -1,0 +1,4 @@
+{
+  "name": "Sharp FC",
+  "command": ["python", "-m", "team_bot.bot"]
+}
